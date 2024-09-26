@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rhythm_lofi.iml" filepath="$PROJECT_DIR$/rhythm_lofi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/rhythm_lofi_android.iml" filepath="$PROJECT_DIR$/android/rhythm_lofi_android.iml" />
+    </modules>
+  </component>
+</project>

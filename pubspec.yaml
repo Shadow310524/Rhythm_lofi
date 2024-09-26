@@ -1,0 +1,72 @@
+name: rhythm_lofi
+description: "A Flutter app that competes with Spotify, featuring a sleek UI, song recommendations, and smooth music playback."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino icons for iOS-style icons.
+  cupertino_icons: ^1.0.8
+
+  # Audio playback library.
+  just_audio: ^0.9.30
+
+  # For smooth animations and transition effects.
+  animations: ^2.0.6
+
+  # To create custom animations like spinning logos, etc.
+  flutter_spinkit: ^5.1.0
+
+  # Audio service for background music play.
+  audio_service: ^0.18.4
+  audioplayers: ^6.1.0
+  page_transition: ^2.1.0
+  music_visualizer: ^1.0.4
+  flutter_local_notifications: ^17.2.3
+
+  # Smooth scrolling and paging for song lists.
+  flutter_staggered_grid_view: ^0.6.2
+
+  # To display icons in the app.
+  font_awesome_flutter: ^10.2.1
+
+  # For better image handling and caching.
+  cached_network_image: ^3.2.3
+
+  # To integrate fonts (Poppins, Roboto, etc.)
+  google_fonts: ^3.0.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icon/lofi.png
+    - assets/icon/player_icon.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto-Regular.ttf

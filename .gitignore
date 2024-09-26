@@ -1,0 +1,29 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.metadata
+
+# IDE related (only ignore these specific files inside .idea/)
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Miscellaneous
+*.lock
+*.log
+*.pyc
+*.pyo
+.DS_Store
+*.apk
+*.jks
+*.keystore
+*.pem
+
+# Build related
+build/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/.symlinks
+ios/Pods/
+ios/Runner.xcworkspace/
